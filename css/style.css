@@ -1177,6 +1177,7 @@
     header .topo .email-localizacao p {
 align-items: center;
         margin: 0 0 10px 0;
+        font-size: 8pt;
     }
 
     .banner {
@@ -1472,6 +1473,10 @@ align-items: center;
     footer .site>div:nth-child(3) p {
 
         text-align: center;
+    }
+
+    footer .rodape div ul li{
+        font-size: 15pt;
     }
 
     footer .rodape div ul li a{
