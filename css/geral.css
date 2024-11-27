@@ -1,0 +1,477 @@
+/*GERAL*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+
+PARÁGRAFOS E OUTROS: Plus Jakarta Sans 
+
+TÍTULOS: Urbanist
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --fontJakarta: Plus Jakarta Sans;
+    --fontUrbanist: Urbanist;
+    --cor0: #303841;
+    --cor1: #FFB42C;
+    --cor2: #2E4750;
+    --cor3: #F7F7F7;
+    --cor05: #FFAF1E;
+}
+
+.site {
+    width: 100%;
+    max-width: 1200px;
+}
+
+h3 {
+    color: var(--cor4);
+    font-size: 12pt;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: var(--fontJakarta), sans-serif;
+    margin-top: 20px;
+}
+
+h2 {
+    color: var(--cor0);
+    font-size: 30pt;
+    font-weight: 800;
+    font-family: var(--fontUrbanist), sans-serif;
+    margin-top: 20px;
+}
+
+p,
+a,
+span,
+h3 {
+    font-family: var(--fontJakarta);
+}
+
+hr {
+    width: 70px;
+    height: 3px;
+    background: var(--cor1);
+    margin-bottom: 15px;
+    border: none;
+}
+
+/* BOTÕES */
+
+/* BOTÃO 01 COM FUNDO */
+.btn01 {
+    padding: 0 20px;
+    width: max-content;
+    line-height: 50px;
+    height: 50px;
+    background-color: var(--cor0);
+    font-family: var(--fontJakarta);
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn01 i {
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.btn01:hover i {
+    transform: scale(1.2);
+    margin-left: 20px;
+    color: var(--cor1);
+}
+
+/* BOTÃO 02 SEM FUNDO */
+.btn02 {
+    font-family: var(--fontJakarta);
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 25px;
+    color: red;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+
+.btn02 i {
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.btn02:hover i {
+    transform: scale(1.2);
+    margin-left: 20px;
+    color: var(--cor1);
+}
+
+/* BOTÃO PLAY MUSICA */
+#play-button {
+    background: url('../img/iconPlay.png') no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    bottom: 30%;
+    z-index: 9999;
+}
+
+#play-button:focus {
+    outline: none;
+}
+
+/* CABEÇALHO */
+header .topo {
+    background-color: var(--cor0);
+}
+
+header .site {
+    padding: 10px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .topo .email-localizacao {
+    display: flex;
+    align-items: center;
+}
+
+header .lz {
+    flex-direction: row;
+}
+
+.lz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .topo .email-localizacao p {
+    color: #ffffff;
+    margin: 0 20px;
+}
+
+header .menu nav {
+    display: flex;
+    align-items: center;
+}
+
+
+header .menu nav ul {
+    display: flex;
+}
+
+header .menu nav ul li a {
+    font-size: 18pt;
+    color: black;
+    font-weight: 500;
+    margin: 0 30px;
+    transition: 0.2s;
+}
+
+header .menu nav ul li a:hover {
+    color: var(--cor1);
+}
+
+header .menu nav ul li img {
+    margin-left: 10px;
+}
+
+header .nosso-contato {
+    display: flex;
+    align-items: center;
+}
+
+header .nosso-contato div i {
+    background-color: var(--cor05);
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18pt;
+    border-radius: 100%;
+}
+
+header .nosso-contato div:nth-child(2) {
+    margin-left: 10px;
+}
+
+header .nosso-contato div h3 {
+    font-family: var(--fontJakarta);
+    margin: 0 0 5px;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+header .nosso-contato div p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* menu hambuguer  */
+
+
+.hambuguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid black;
+    cursor: pointer;
+}
+
+.hambuguer::before,
+.hambuguer::after {
+
+    content: "";
+    width: 32px;
+    height: 3px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px;
+
+}
+
+
+
+/* menu fechar menu  */
+
+.fechar {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 25pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    width: 7%;
+    display: none;
+}
+
+.fechar img {
+
+    width: 49px;
+    height: 55px;
+}
+
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: var(--cor0);
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+footer .site {
+    margin: 0 auto;
+}
+
+footer .rodape {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .rodape h2 {
+    font-size: 18pt;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+footer .rodape hr {
+    margin-bottom: 30px;
+}
+
+footer .rodape ul li {
+    font-size: 14pt;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+footer .rodape ul i {
+    margin-right: 10px;
+}
+
+footer .rodape ul li a {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+footer .rodape ul li a:hover i {
+    transform: scale(1.2);
+}
+
+footer .site>div:nth-child(3) a,
+footer .rodape i,
+footer .rodape ul li a:hover {
+    color: var(--cor05);
+}
+
+
+footer .site>hr {
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-top: 50px;
+}
+
+footer .site>div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .newsletter p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+footer .newsletter i {
+    color: #ffffff;
+    font-size: 15pt;
+}
+
+footer .newsletter input {
+    padding-left: 20px;
+    border-radius: 40px;
+    font-size: 16pt;
+    line-height: 50px;
+}
+
+footer .newsletter button {
+    border: none;
+    background-color: var(--cor05);
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+/* ÍCONES */
+.icones ul {
+    display: flex;
+    align-items: center;
+}
+
+.icones ul li {
+    margin: 0 10px;
+}
+
+.icones ul li a {
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: var(--cor1);
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 18pt;
+    transition: 0.3s;
+}
+
+.icones ul li:hover a {
+    transform: scale(1.2);
+    color: #ffffff;
+}
+
+/* WHATSAPP */
+.icones ul li:nth-child(1):hover a {
+    background-color: #00b643;
+}
+
+/* INSTAGRAM */
+.icones ul li:nth-child(2):hover a {
+    background: #833ab4;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+/* FACEBOOK */
+.icones ul li:nth-child(3):hover a {
+    background-color: #3b5998;
+}
+
+/* LINKEDIN */
+.icones ul li:nth-child(4):hover a {
+    background-color: #0e76a8;
+}
+
+/* BANNERS DAS PÁGINAS */
+.banner-pagina {
+    background-image: url(../img/banner-sobre.jpg);
+    height: 300px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-pagina .site {
+    margin: 0 auto;
+}
+
+.banner-pagina .site a {
+    color: #FFAF1E;
+    font-weight: bold;
+}
+
+.banner-pagina .site h2 {
+    color: white;
+    font-size: 56pt;
+}
+
+.banner-pagina .site a:hover {
+    text-decoration: underline;
+}
+
+.banner-pagina .site strong {
+    color: white;
+}
+
+
+@media (max-width: 1024px) {
+
+    header .site {
+
+        justify-content: center;
+    }
+
+
+
+    .banner div {
+
+        margin-left: 50px;
+    }
+
+
+
+
+}

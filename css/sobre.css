@@ -1,0 +1,165 @@
+.pagina-sobre-foto {
+
+    padding: 40px 0;
+}
+
+.pagina-sobre-foto .site {
+    margin: 0 auto;
+
+}
+
+.pagina-sobre-foto .site>div {
+    display: flex;
+
+}
+
+.pagina-sobre-foto .site div:nth-child(2) h2 {
+
+    color: #FFAF1E;
+    margin-left: 30px;
+}
+
+.pagina-sobre-foto .site div:nth-child(2) h3 {
+    font-size: 20pt;
+    line-height: 32px;
+    margin-left: 30px;
+}
+
+
+.pagina-sobre-foto .site div:nth-child(2) h4 {
+
+    margin-top: 20px;
+    font-size: 20pt;
+    line-height: 32px;
+    margin-left: 30px;
+
+}
+
+
+.pagina-sobre-foto .site .qualidades img,
+.qualidades-01 img {
+    width: 30px;
+    height: 30px;
+}
+
+.pagina-sobre-foto .site .qualidades,
+.qualidades-01 {
+    display: flex;
+
+}
+
+.pagina-sobre-foto .site .qualidades div,
+.qualidades-01 div {
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+
+.pagina-sobre-foto .site .qualidades div img,
+.qualidades-01 div img {
+
+    margin: 20px 20px;
+}
+
+.pagina-sobre-foto .site .qualidades p,
+.qualidades-01 p {
+
+    text-align: start;
+    font-size: 15pt;
+
+}
+
+.pagina-sobre-foto .site .video-sobre {
+
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+
+.pagina-sobre-foto .site .video-sobre .video {
+    display: flex;
+    align-items: center;
+}
+
+.pagina-sobre-foto .site .video-sobre .video h5 {
+    margin-left: 30px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.pagina-sobre-foto .site .video-sobre .anos-de-esperiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina-sobre-foto .site .video-sobre .anos-de-esperiencia h2 {
+
+    margin: 0;
+}
+
+.pagina-sobre-foto .site .video-sobre .anos-de-esperiencia p {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+@media (max-width: 1024px) {
+
+    .banner-pagina .site {
+
+        margin-left: 30px;
+    }
+
+    .pagina-sobre-foto .site div:nth-child(1) img {
+        width: 500px;
+        height: 500px;
+        margin-left: 21px;
+    }
+
+    .pagina-sobre-foto .site .qualidades, .qualidades-01{
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .pagina-sobre-foto .site .video-sobre .anos-de-esperiencia h2{
+        font-size: 45pt;
+        margin-bottom: 10px;
+    }
+
+    .pagina-sobre-foto .site .video-sobre .anos-de-esperiencia p{
+        font-size: 21pt;
+    }
+
+
+    .pagina-sobre-foto .site .qualidades div img,
+    .pagina-sobre-foto .site .qualidades-01 div img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .pagina-sobre-foto .site .video-sobre .video img {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+
+    .pagina-sobre-foto .site div:nth-child(2) h2 {
+       font-size: 25pt;
+       text-align: center;
+    }
+
+    .pagina-sobre-foto .site div:nth-child(2) h3 {
+        font-size: 15pt;
+       
+    }
+
+
+    .pagina-sobre-foto .site div:nth-child(2) h4 {
+      
+        font-size: 18pt;  }
+       
+
+}

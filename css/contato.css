@@ -1,0 +1,106 @@
+.contato {
+    padding: 40px 0;
+}
+
+.contato .site {
+    margin: 0 auto;
+}
+
+.contato .site .entrar-em-contato {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.contato .site .entrar-em-contato .contato-icones {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 50%;
+}
+
+.contato .site .entrar-em-contato .contato-icones div {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contato .site .entrar-em-contato .contato-icones div:nth-child(3) {
+    margin-top: 70px;
+}
+
+.contato .site .entrar-em-contato .contato-icones div p {
+
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+
+
+.contato .site .formulario {
+    background-color: #F7F7F7;
+    padding: 40px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+
+.contato .site .formulario .form-group input,
+.contato .site .formulario .form-group textarea {
+    font-size: 15pt;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: 2px solid #FFAF1E;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+
+
+.contato .site .formulario .form-group textarea {
+    resize: none;
+    height: 200px;
+    padding: 20px 0 0 20px;
+}
+
+.contato .site .formulario .form-group textarea::placeholder {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    left: -10px;
+}
+
+
+
+.contato .site .formulario button {
+    width: 100%;
+    height: 60px;
+    background-color: #2E4750;
+    text-transform: uppercase;
+    font-size: 13pt;
+    transition: 0.4s;
+}
+
+.contato .site .formulario button:hover {
+    transform: scale(1.1);
+}
+
+.mapa {
+    padding-top: 40px;
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+
+
+@media (max-width: 1024px) {
+
+}

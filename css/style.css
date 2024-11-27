@@ -1,0 +1,1610 @@
+.banner {
+    background-image: url('../img/banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .site {
+    margin: 0 auto;
+}
+
+.banner div {
+    width: 630px;
+    height: 415px;
+}
+
+.banner h2 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.banner h3 {
+    color: var(--cor1);
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.banner p{
+    font-size: 15pt;
+    line-height: 40px;
+}
+
+
+
+.banner p,
+.banner h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.servicos-entre-banner {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    user-select: none;
+}
+
+.servicos-entre-banner img {
+    margin-right: 20px;
+}
+
+
+.servicos-entre-banner h3 {
+    font-weight: bold;
+    font-size: 16pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+.servicos-entre-banner p {
+    color: white;
+    font-size: 14pt;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.protecao,
+.cobertura {
+    padding: 20px;
+    width: 320px;
+    height: 240px;
+    background-color: var(--cor0);
+    position: relative;
+    bottom: 90px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cobertura {
+    background-color: var(--cor2);
+    margin-left: 40px;
+}
+
+.protecao div,
+.cobertura div {
+    display: flex;
+    align-items: center;
+}
+
+.introducoes.site {
+    margin: 0 auto;
+    display: flex;
+    font-family: var(--fontJakarta);
+}
+
+.introducoes .carrossel {
+    width: 40%;
+    margin-right: 20px;
+    height: 100%;
+}
+
+.introducoes .carrossel img {
+    width: 100%;
+    height: 100%;
+}
+
+.introducoes p {
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 14pt;
+}
+
+.introducoes div:nth-child(2) ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introducoes div:nth-child(2) ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.introducoes div:nth-child(2) ul li span {
+    font-size: 14pt;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.introducoes div .ceo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.introducoes div .ceo span {
+    display: flex;
+    margin: 10px;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.parceiros .site {
+    margin: 0 auto;
+}
+
+.parceiros .site .marcas {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parceiros .site .marcas img {
+    height: 100px;
+    width: 100%;
+}
+
+
+.parceiros .site .marcas div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+
+.parceiros .site .marcas div:hover {
+    background-color: var(--cor3);
+    transform: scale(1.3);
+}
+
+.parceiros .site .marcas p {
+    margin: 5px 0;
+}
+
+.oque-fazemos {
+    background-color: var(--cor3);
+    margin-top: 70px;
+    padding: 20px 0;
+}
+
+.oque-fazemos .site {
+
+    margin: 0 auto;
+}
+
+.oque-fazemos .site .jornada-melhor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.oque-fazemos .site .servicos-01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.oque-fazemos .site .servicos {
+    padding: 30px;
+    width: 240px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid var(--cor05);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.oque-fazemos .site .servicos:hover {
+    background-color: #2E4750;
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+.oque-fazemos .site .servicos:hover h3,
+.oque-fazemos .site .servicos:hover p {
+    color: #ffffff;
+}
+
+.oque-fazemos .site .servicos:hover a {
+    color: var(--cor1);
+}
+
+.oque-fazemos .site .servicos h3 {
+    font-weight: 900;
+    font-size: 14pt;
+    color: var(--cor0);
+    text-align: center;
+    line-height: 24px;
+}
+
+.oque-fazemos .site .servicos p {
+    font-size: 13pt;
+    color: #757575;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+
+.oque-fazemos .site .servicos a {
+    color: #2E4750;
+    letter-spacing: 3px;
+    font-size: 12pt;
+    align-self: flex-start;
+}
+
+.oque-fazemos .site .servicos .emissao-e-enovacao {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.visaoGeral {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/BannerVisaoGeral.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.visaoGeral .site {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visaoGeral .site h3,
+.visaoGeral .site h2,
+.visaoGeral .site p,
+.visaoGeral .site span {
+    color: #ffffff;
+}
+
+.visaoGeral .site>div {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.visaoGeral .site>div:nth-child(1) h3 {
+    color: var(--cor05);
+}
+
+.visaoGeral .site>div:nth-child(1) h2 {
+    margin-bottom: 20px;
+}
+
+.visaoGeral .site>div:nth-child(1) p {
+    margin-bottom: 40px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.visaoGeral .site>div:nth-child(1)>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.visaoGeral .site>div:nth-child(1)>div span:nth-child(2) {
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+.visaoGeral .site>div:nth-child(1) div div {
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    width: 100%;
+    height: 20px;
+    margin: 10px 0 40px;
+}
+
+.visaoGeral .site>div:nth-child(1) div div::after {
+    content: '';
+    background-color: var(--cor05);
+    display: block;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.visaoGeral .site .porcentagem1::after {
+    width: 95%;
+}
+
+.visaoGeral .site .porcentagem2::after {
+    width: 90%;
+}
+
+.visaoGeral .site .porcentagem3::after {
+    width: 97%;
+}
+
+.visaoGeral .site>div:nth-child(2) img {
+    width: 100%;
+}
+
+.visaoGeral .site>div:nth-child(2)>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.visaoGeral .site>div:nth-child(2)>div h2 {
+    letter-spacing: 8px;
+    margin-top: 40px;
+}
+
+.visaoGeral .site>div:nth-child(2)>div div:nth-child(1) h2::after {
+    content: 'K';
+    font-size: 15pt;
+    position: relative;
+    bottom: 20px;
+    right: 5px;
+    color: var(--cor05);
+    letter-spacing: 0;
+}
+
+.visaoGeral .site>div:nth-child(2)>div div:nth-child(2) h2::after {
+    content: 'Dias';
+    font-size: 15pt;
+    position: relative;
+    bottom: 20px;
+    right: 5px;
+    color: var(--cor05);
+    letter-spacing: 2px;
+}
+
+.visaoGeral .site>div:nth-child(2)>div div:nth-child(3) h2::after {
+    content: '%';
+    font-size: 15pt;
+    position: relative;
+    bottom: 20px;
+    right: 5px;
+    color: var(--cor05);
+    letter-spacing: 0;
+}
+
+.avaliacoes {
+    padding: 20px 0;
+}
+
+
+.avaliacoes .site {
+    margin: 0 auto;
+}
+
+.avaliacoes .site .ver-todas-avalicoes {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.avaliacoes .site .ver-todas-avalicoes .clique-aqui a {
+    background-color: #2E4750;
+}
+
+
+.avaliacoes .site .clientes {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.avaliacoes .site .clientes .comentario {
+    margin: 0 10px;
+    padding: 20px;
+    width: 480px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.avaliacoes .site .clientes .comentario:hover {
+    background-color: #E4E4E4;
+}
+
+.avaliacoes .site .clientes .comentario img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.avaliacoes .site .clientes .comentario p {
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 16pt;
+}
+
+.avaliacoes .site .clientes .user {
+    display: flex;
+    margin: 10px 0;
+}
+
+.avaliacoes .site .clientes .user img {
+    width: 70px;
+    height: 70px;
+}
+
+.avaliacoes .site .clientes .user h3 {
+    margin: 10px;
+}
+
+.nossa-consultora {
+    background-color: #F7F7F7;
+    padding: 30px 0;
+}
+
+.nossa-consultora .site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nossa-consultora .site .caixa {
+    padding: 30px;
+    width: 100%;
+    max-width: 840px;
+    height: 350px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 2px solid #F6C90E;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nossa-consultora .site .caixa div:nth-child(1) img {
+    width: 100%;
+}
+
+.nossa-consultora .site .caixa div:nth-child(2) {
+    width: 70%;
+    margin-left: 30px;
+}
+
+.nossa-consultora .site .caixa div h2 {
+    font-size: 42pt;
+}
+
+
+.nossa-consultora .site .caixa div h3 {
+    font-size: 24pt;
+    margin-bottom: 15px;
+}
+
+.nossa-consultora .site .hr-01 {
+    width: 100%;
+}
+
+.nossa-consultora .icones ul li a {
+    background-color: var(--cor2);
+    color: #ffffff;
+    width: 55px;
+    height: 55px;
+    font-size: 20pt;
+}
+
+.nossa-consultora .site .caixa .saiba-mais-fabiana {
+
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+
+}
+
+.nossa-consultora .site .caixa .saiba-mais-fabiana a {
+
+    color: #2E4750;
+    font-weight: bold;
+    font-size: 14pt;
+
+}
+
+.nossa-consultora .site .caixa .saiba-mais-fabiana img {
+    margin-left: 10px;
+}
+
+
+
+.como-trabalhamos {
+    padding: 50px 0;
+    background-color: #2E4750;
+}
+
+.como-trabalhamos .site {
+    margin: 0 auto;
+}
+
+.como-trabalhamos .site h3 {
+
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.como-trabalhamos .site .da-compra-ao-seguro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.como-trabalhamos .site .forma-de-trabalho {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.como-trabalhamos .site .da-compra-ao-seguro h2 {
+
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35pt;
+}
+
+.como-trabalhamos .site .da-compra-ao-seguro p {
+    color: #ffffff;
+    font-weight: 700;
+    width: 50%;
+        line-height: 30px;
+}
+
+
+.como-trabalhamos .site .forma-de-trabalho div {
+    width: 256px;
+    height: 380px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.como-trabalhamos .site .forma-de-trabalho div img {
+    margin: 20px 0;
+    width: 80px;
+    height: 80px;
+}
+
+.como-trabalhamos .site .forma-de-trabalho div h3 {
+    margin-bottom: 10px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+
+.como-trabalhamos .site .forma-de-trabalho div p {
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+@media  (max-width: 1024px) {
+
+
+    header .topo .email-localizacao p{
+        font-size: 10pt;
+    }
+
+    .banner{
+        height: 850px;
+    }
+
+
+    .servicos-entre-banner {
+
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+
+    .introducoes .carrossel {
+        margin-left: 20px;
+    }
+
+    .introducoes.site .slick-dots {
+
+        bottom: -40px;
+
+
+    }
+
+    .introducoes p {
+
+        margin-right: 33px;
+    }
+
+
+    .parceiros .site .marcas img {
+        height: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .parceiros .site .marcas {
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+
+
+    .parceiros .site .marcas div {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .avaliacoes .site hr,
+    .avaliacoes .site h3,
+    .como-trabalhamos .site hr,
+    .como-trabalhamos .site h3 {
+
+        margin-left: 30px;
+    }
+
+    .avaliacoes .site .ver-todas-avalicoes {
+
+        justify-content: space-around;
+
+    }
+
+    .como-trabalhamos .site .da-compra-ao-seguro {
+        justify-content: space-around;
+    }
+
+    .como-trabalhamos .site .da-compra-ao-seguro h2 {
+        font-size: 30pt;
+        margin-top: 0;
+    }
+
+
+
+
+    .como-trabalhamos .site .forma-de-trabalho div {
+        width: 285px;
+    }
+
+
+    .como-trabalhamos .site .forma-de-trabalho {
+        margin: 40px 20px 0 20px;
+    }
+
+    .pagina-sobre-foto .site>div {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .rodape {
+
+        justify-content: space-evenly;
+    }
+
+    footer .rodape div {
+
+     margin-right: 10px;
+     margin-left: 10px;
+    }
+
+
+    footer .rodape ul li {
+        font-size: 11pt;
+        margin-bottom: 20px;
+    }
+
+    footer .newsletter input {
+        padding-left: 5px;
+        font-size: 9pt;
+    }
+
+    footer .site .newsletter {
+        width: 28%;
+    }
+
+
+    footer .site>div:nth-child(3) {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    footer .site .icones{
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    .banner{
+        height: 700px;
+    }
+
+    .topo .site .email-localizacao img {
+        margin-left: 10px;
+    }
+
+
+    header .menu nav ul li a {
+        margin: 0 13px;
+    }
+
+
+    header .nosso-contato div h3 {
+        font-size: 17px;
+    }
+
+    header .nosso-contato div p {
+        font-size: 15px;
+    }
+
+
+    header .site {
+        justify-content: space-around;
+    }
+
+    header .menu nav {
+        order: 5;
+    }
+
+    header .menu nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(#FFB42C, #ffea4a);
+        clip-path: circle(100px at 90% -20%);
+        transition: 1s ease-out;
+
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 999;
+        pointer-events: none;
+    }
+
+    header nav.active ul {
+        clip-path: circle(1500px at 90% -20%);
+        pointer-events: all;
+    }
+
+
+    header .menu nav ul {
+
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+
+    header .menu nav ul li {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    header .menu nav ul li:nth-child(3) {
+
+        width: 102%;
+    }
+
+    header .menu nav ul li:nth-child(4) {
+
+        width: 112%;
+    }
+
+    header .menu nav ul li:nth-child(5) {
+
+        width: 109%;
+        margin-bottom: 100px;
+    }
+
+    header .menu nav ul li a {
+        margin: 0;
+        font-size: 27pt;
+    }
+
+    .topo .site .icones,
+    header .nosso-contato {
+        display: none;
+    }
+
+    .hambuguer {
+        display: block;
+        margin-top: 3px;
+    }
+
+    .fechar {
+        display: block;
+    }
+
+    .banner div {
+        width: auto;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .banner h2 {
+        font-size: 40pt;
+    }
+
+    .protecao,
+    .cobertura {
+        width: 60%;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .protecao div,
+    .cobertura div {
+        flex-direction: column;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .servicos-entre-banner h3 {
+        font-size: 14pt;
+    }
+
+
+    .carrossel .slick-dots {
+        bottom: -30px !important;
+    }
+
+
+    .introducoes.site {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    
+
+    .introducoes.site div:nth-child(2){
+        /* padding: 0 30px; */
+        margin: 0 30px;
+    }
+
+    .introducoes.site  div .ceo div:nth-child(2) {
+        /* padding: 0 30px; */
+        margin: 0  0px;
+    }
+
+    .introducoes .carrossel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .parceiros .site .marcas div:hover {
+        transform: scale(1.1);
+    }
+
+    .oque-fazemos .site .jornada-melhor h2 {
+        line-height: 35pt;
+        text-align: center;
+        font-size: 27pt;
+    }
+
+    .visaoGeral {
+        height: auto;
+    }
+
+    .visaoGeral .site {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .visaoGeral .site>div:nth-child(2)>div div{
+        margin: 5px 20px 0 0;
+    }
+
+    .visaoGeral .site>div:nth-child(2)>div h3 {
+        font-size: 10pt;
+        margin-right: 10pt;
+    }
+
+
+    .avaliacoes .site .ver-todas-avalicoes h2 {
+
+        font-size: 20pt;
+        margin-left: 10px;
+    }
+
+    .nossa-consultora .site h2 {
+        text-align: center;
+        font-size: 25pt
+    }
+
+    .nossa-consultora .site .caixa {
+
+        width: 77%;
+
+    }
+
+    .banner-pagina .site h2 {
+        color: white;
+        font-size: 38pt;
+    
+    
+    }
+
+
+    .pagina-sobre-foto .site div:nth-child(1) img {
+        width: 89% !important;
+      
+    }
+
+    .pagina-sobre-foto .site .qualidades, .qualidades-01 {
+        display: flex;
+        flex-direction: column;
+    }
+    .pagina-sobre-foto .site .qualidades div, .qualidades-01 div {
+       
+        flex-direction: column;
+    }
+
+    .pagina-sobre-foto .site .qualidades, .qualidades-01 {
+        display: flex;
+        align-items: center;
+    }
+
+    .pagina-sobre-foto .site .qualidades p, .qualidades-01 p {
+      
+        text-align: center !important;
+    }
+
+    .pagina-sobre-foto .site .video-sobre {
+           flex-direction: column;
+    }
+
+    .pagina-sobre-foto .site .video-sobre .video{
+
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+
+    .contato .site .formulario {
+        width: 75% !important;
+    }
+
+    .pagina-sobre-foto .site>div {
+
+        flex-direction: column;
+
+    }
+
+    .pagina-sobre-foto .site div:nth-child(1) {
+        display: flex;
+
+    }
+
+
+    .pagina-sobre-foto .site div:nth-child(1) img {
+        width: 100% !important;
+        height: 515px !important;
+
+    }
+
+
+
+    .pagina-sobre-foto .site div:nth-child(2) img {
+
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .pagina-sobre-foto .site .video-sobre .video img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .como-trabalhamos .site .forma-de-trabalho div {
+        width: 242px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height: 430px;
+    }
+
+    .como-trabalhamos .site .forma-de-trabalho {
+
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .como-trabalhamos .site .da-compra-ao-seguro {
+        flex-direction: column;
+        align-items: start;
+        margin-left: 30px;
+    }
+
+    .como-trabalhamos .site .da-compra-ao-seguro h2 {
+        font-size: 35pt;
+    }
+
+    .como-trabalhamos .site .da-compra-ao-seguro p {
+        margin-top: 10px;
+        font-size: 13pt;
+        width: 96%;
+      margin-left: 0px;
+     
+        
+    }
+
+    .contato .site .entrar-em-contato .contato-icones {
+
+        margin-right: 25px;
+    }
+
+
+
+    footer .rodape {
+
+        flex-direction: column;
+
+    }
+
+    footer .rodape div {
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    footer .rodape div h2 {
+
+        font-size: 23pt;
+
+    }
+
+    footer .rodape div ul {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    footer .rodape div ul li {
+        margin: 20px 0;
+        font-size: 20pt;
+
+    }
+
+    footer .rodape div ul li i {
+
+        margin-right: 20px;
+    }
+
+    footer .rodape div ul li a {
+
+
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    footer .rodape .newsletter {
+        width: 500px;
+    }
+
+
+    footer .rodape .newsletter p {
+
+        font-size: 15pt;
+    }
+
+    footer .site>div:nth-child(3) {
+        flex-direction: column;
+    }
+
+    footer .site>div:nth-child(3) p {
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header .topo .email-localizacao {
+
+        flex-direction: column;
+    }
+
+    .topo .site .email-localizacao img {
+        margin: 0 5px 10px 0;
+    }
+
+
+    header .topo .email-localizacao a{
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+
+
+    header .topo .email-localizacao p {
+align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .banner {
+
+        justify-content: start;
+        height: 900px;
+
+
+    }
+
+    .banner .site div {
+        margin-top: 40px;
+    }
+
+
+    .banner .site div h2 {
+        font-size: 24pt;
+    }
+
+    .banner .site div p {
+        font-size: 15pt;
+        width: 100%;
+    }
+
+    .servicos-entre-banner {
+        flex-direction: column;
+        height: 100px;
+        padding: 0 0 30px;
+        position: static;
+    }
+
+    .protecao,
+    .cobertura {
+        margin: 0 0 20px 0;
+        /* position: relative; */
+        bottom: 144px;
+        position: static;
+    }
+
+    .introducoes.site {
+        flex-direction: column;
+        padding-top: 320px;
+    }
+
+
+    .introducoes .carrossel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .carrossel .slick-dots {
+        bottom: -21px !important;
+    }
+
+    .introducoes.site div:nth-child(2) {
+
+        margin: 33px 0 0 15px;
+
+    }
+
+    .introducoes div .ceo {
+
+        justify-content: center;
+    }
+
+    .introducoes.site .ceo div {
+        margin-top: 0;
+    }
+
+    .botaointro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parceiros .site .marcas {
+        flex-direction: column;
+    }
+    
+    .oque-fazemos .site .jornada-melhor h2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .visaoGeral {
+        padding: 40px 0 49px 0;
+    }
+
+    .visaoGeral .site {
+        flex-direction: column;
+    }
+
+    .visaoGeral .site>div {
+        width: 92%;
+    }
+
+
+    .visaoGeral .site div:nth-child(2) {
+
+        order: -2;
+        width: 87%;
+        align-items: center;
+    }
+
+    .visaoGeral .site>div:nth-child(2)>div {
+
+        order: 1;
+
+    }
+
+
+
+    .avaliacoes .site .ver-todas-avalicoes {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
+
+    .nossa-consultora .site .caixa {
+        width: 77%;
+        flex-direction: column;
+        height: 674px;
+    }
+
+
+    .nossa-consultora .site .caixa div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nossa-consultora .site .caixa .icones ul {
+        flex-direction: column;
+    }
+
+    .nossa-consultora .icones ul li a {
+        margin-bottom: 10px;
+    }
+
+
+    .nossa-consultora .site .caixa div:nth-child(1) img {
+        width: 51%;
+    }
+
+    .nossa-consultora .site .caixa div h2 {
+
+        text-align: start;
+
+    }
+
+
+    .nossa-consultora .site .caixa div:nth-child(2) {
+        margin: 0;
+        width: 100%;
+
+
+    }
+
+
+    .como-trabalhamos .site .da-compra-ao-seguro {
+
+
+        margin-left: 10px;
+    }
+
+    .como-trabalhamos .site h3,
+    .como-trabalhamos .site hr {
+        margin-left: 10px;
+    }
+
+    .como-trabalhamos .site h3 {
+
+
+        font-size: 20pt;
+    }
+
+    .como-trabalhamos .site .da-compra-ao-seguro h2 {
+
+        margin-bottom: 20px;
+    }
+
+
+
+   
+
+    .pagina-sobre-foto .site .qualidades,
+    .qualidades-01 {
+        margin-right: 0;
+    }
+
+
+    .pagina-sobre-foto .site .qualidades {
+        margin-bottom: 10px;
+    }
+
+
+    .planos .site h2 {
+        text-align: center;
+    }
+
+
+    .planos .site .plano:hover {
+
+        transform: scale(0.99) !important;
+    }
+
+
+    .banner-pagina .site h2 {
+        color: white;
+        font-size: 38pt;
+    
+    
+    }
+
+    .pagina-sobre-foto .site div:nth-child(1) img {
+        width: 89% !important;
+      
+    }
+
+    .pagina-sobre-foto .site .qualidades, .qualidades-01 {
+        display: flex;
+        flex-direction: column;
+    }
+    .pagina-sobre-foto .site .qualidades div, .qualidades-01 div {
+       
+        flex-direction: column;
+    }
+
+    .pagina-sobre-foto .site .qualidades, .qualidades-01 {
+        display: flex;
+        align-items: center;
+    }
+
+    .pagina-sobre-foto .site .qualidades p, .qualidades-01 p {
+      
+        text-align: center !important;                                                          
+    }
+
+    .pagina-sobre-foto .site .video-sobre {
+           flex-direction: column;
+           margin: 15px 0 !important;
+    }
+
+    .pagina-sobre-foto .site .video-sobre .video{
+
+        margin-bottom: 15px;
+    }               
+
+   
+
+    .contato .site .entrar-em-contato {
+        flex-direction: column;
+    }
+
+
+    .contato .site .entrar-em-contato .contato-icones {
+
+        width: 100% !important;
+    }
+
+    .contato .site .entrar-em-contato .contato-icones div {
+       
+        flex-direction: column;
+    }
+
+    .contato .site .entrar-em-contato .contato-icones div p {
+      margin-top: 10px;
+        text-align: center;
+
+}
+
+
+    .contato .site .formulario {
+
+        width: 82% !important;
+        padding: 40px 30px 40px 30px !important;
+
+    }
+
+
+    footer .rodape div,
+    footer .rodape .newsletter {
+
+        width: 300px;
+    }
+
+    footer .site>div:nth-child(3) p {
+
+        text-align: center;
+    }
+
+    footer .rodape div ul li a{
+        font-size: 13pt;
+    }
+
+
+}
+
+
+@media (max-width: 400px) {
+
+
+    .servicos-entre-banner {
+        position: static;
+        padding: 70px 0 30px;
+    }
+
+
+    .introducoes.site {
+        margin-top: 80px;
+        padding-top: 130px;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 355px){
+
+
+   
+
+    .introducoes .carrossel{
+
+        display: none;
+    }
+
+    .visaoGeral .site>div:nth-child(2)>div {
+     
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* justify-content: center; */
+        text-align: center;
+    }
+
+    .nossa-consultora .site .caixa div h2 {
+        font-size: 36pt;
+    }
+
+
+    .como-trabalhamos .site h3 {
+       
+        text-align: center;
+    }
+
+    .banner-pagina .site h2 {
+        color: white;
+        font-size: 38pt;
+    
+    
+    }
+
+    .pagina-sobre-foto .site div:nth-child(1) img {
+        width: 89% !important;
+      
+    }
+
+    .pagina-sobre-foto .site .qualidades, .qualidades-01 {
+        display: flex;
+        flex-direction: column;
+    }
+    .pagina-sobre-foto .site .qualidades div, .qualidades-01 div {
+       
+        flex-direction: column;
+    }
+
+    .pagina-sobre-foto .site .qualidades, .qualidades-01 {
+        display: flex;
+        align-items: center;
+    }
+
+    .pagina-sobre-foto .site .qualidades p, .qualidades-01 p {
+      
+        text-align: center !important;
+    }
+
+    .pagina-sobre-foto .site .video-sobre {
+           flex-direction: column;
+    }
+
+    .pagina-sobre-foto .site .video-sobre .video{
+
+        margin-bottom: 15px;
+    }
+
+    .contato .site .formulario {
+        width: 75% !important;
+    }
+}
+
+
+
+@media (max-width: 300px){
+
+    .banner {
+        justify-content: start;
+        height: 623px;
+    }
+    .avaliacoes .site .ver-todas-avalicoes .clique-aqui a {
+        background-color: #2E4750;
+        width: 86%;
+    }
+
+    footer .rodape div, footer .rodape .newsletter {
+        width: 100%;
+    }
+
+    .contato .site .entrar-em-contato .contato-icones div {
+       
+        flex-direction: column;
+    }
+
+    .contato .site .entrar-em-contato .contato-icones div p {
+      margin-top: 10px;
+        text-align: center;
+
+}
+
+ 
+
+
+
+ }
