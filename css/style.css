@@ -1218,7 +1218,7 @@ align-items: center;
 
     .introducoes.site {
         flex-direction: column;
-        padding-top: 320px;
+        padding-top: 320px !important;
     }
 
 
@@ -1283,6 +1283,8 @@ align-items: center;
         order: -2;
         width: 87%;
         align-items: center;
+        display: flex;
+    flex-flow: column wrap;
     }
 
     .visaoGeral .site>div:nth-child(2)>div {
@@ -1475,6 +1477,11 @@ align-items: center;
     footer .rodape div ul li a{
         font-size: 13pt;
     }
+
+    .visaoGeral .site>div:nth-child(2)>div h2{
+        text-align: center;
+    }
+
 
 
 }
