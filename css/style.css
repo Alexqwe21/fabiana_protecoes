@@ -1155,6 +1155,11 @@
 
 @media (max-width: 480px) {
 
+    .protecao, .cobertura{
+        width: 80%;
+    }
+
+
     header .topo .email-localizacao {
 
         flex-direction: column;
