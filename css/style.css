@@ -210,6 +210,17 @@
 }
 
 
+.oque-fazemos .site .jornada-melhor h4{
+    margin-top: 15px;
+text-align: center;
+font-family: var(--fontJakarta);
+line-height: 40px;
+font-size: 15pt;
+color:var(--cor0);
+
+}
+
+
 .oque-fazemos .site .servicos-01 {
     display: flex;
     flex-wrap: wrap;
@@ -384,7 +395,7 @@
 }
 
 .visaoGeral .site>div:nth-child(2)>div div:nth-child(2) h2::after {
-    content: 'Dias';
+    content: 'Dia';
     font-size: 15pt;
     position: relative;
     bottom: 20px;
@@ -602,7 +613,7 @@
 
 .como-trabalhamos .site .forma-de-trabalho div {
     width: 256px;
-    height: 380px;
+    height: 400px;
     padding: 10px;
     margin: 10px;
     border: 2px solid white;
