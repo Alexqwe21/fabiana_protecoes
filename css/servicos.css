@@ -42,6 +42,7 @@
     align-items: center;
     justify-content: space-around;
     transition: 0.5s;
+    margin-top: 40px;
 }
 
 .planos .site .plano img {

@@ -200,6 +200,8 @@ header .menu nav ul li img {
 header .nosso-contato {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 header .nosso-contato div i {
@@ -211,7 +213,13 @@ header .nosso-contato div i {
     text-align: center;
     font-size: 18pt;
     border-radius: 100%;
+   
 }
+
+header .nosso-contato div i , header .nosso-contato div img{
+    margin: 10px 0;
+}
+
 
 header .nosso-contato div:nth-child(2) {
     margin-left: 10px;
@@ -230,6 +238,10 @@ header .nosso-contato div p {
     font-size: 18px;
     text-align: center;
     margin-top: 10px;
+}
+
+header .nosso-contato div a{
+    color: #000000;
 }
 
 
