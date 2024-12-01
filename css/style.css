@@ -1334,9 +1334,10 @@ align-items: center;
 
 
     .nossa-consultora .site .caixa {
-        width: 77%;
+        width: 90%;
         flex-direction: column;
-        height: 674px;
+        height: 740px;
+        justify-content: space-evenly;
     }
 
 
