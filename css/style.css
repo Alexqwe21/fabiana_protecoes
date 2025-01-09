@@ -474,6 +474,7 @@ color:var(--cor0);
 .avaliacoes .site .clientes .user {
     display: flex;
     margin: 10px 0;
+    align-items: center;
 }
 
 .avaliacoes .site .clientes .user img {
