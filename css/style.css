@@ -1541,6 +1541,9 @@ align-items: center;
     .visaoGeral .site>div:nth-child(2)>div h2{
         text-align: center;
     }
+    .visaoGeral .site>div:nth-child(2)>div{
+        display: block;
+    }
 
 
     .contato .site .formulario button{
