@@ -1566,7 +1566,7 @@ align-items: center;
 
     .introducoes .carrossel{
 
-        display: none;
+        /* display: none; */
     }
 
     /* .visaoGeral .site>div:nth-child(2)>div {
@@ -1582,6 +1582,11 @@ align-items: center;
         width: 300px !important;
         height: 300px !important;
      } */
+
+     .visaoGeral .carrossel .slick-dots{
+        display: none;
+     }
+
      .visaoGeral .site>div:nth-child(2)>div div {
         margin: 5px -5px 0 0;
     }
