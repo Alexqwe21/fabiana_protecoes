@@ -1575,6 +1575,10 @@ align-items: center;
         margin: 5px -5px 0 0;
     }
 
+    .visaoGeral .site>div:nth-child(2)>div{
+        display: block;
+    }
+
 }
 
 
