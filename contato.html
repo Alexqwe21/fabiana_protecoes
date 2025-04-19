@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabi - Contato</title>
+    <meta name="facebook-domain-verification" content="raw2e66mxk9jmiu5w4ixl38ngz68nw"/>
+    <title>Fabi - Home</title>
+
     <link rel="stylesheet" href="css/reset.css">
 
     <!-- SlickJS -->
@@ -13,10 +15,8 @@
 
     <link rel="stylesheet" href="css/geral.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
-    <script defer src="js/script.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHPCYC835V"></script>
@@ -24,11 +24,31 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-QHPCYC835V');
     </script>
-</head>
 
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1385949369267363');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1385949369267363&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+</head>
 
 
 <body>
@@ -166,8 +186,9 @@
                         <form action="https://formsubmit.co/fabiprotecoes@hotmail.com" method="post">
                             <input type="hidden" name="_subject" value="Nova mensagem enviada pelo formulário">
                             <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_autoresponse" value="Obrigado! Recebemos sua mensagem e entraremos em contato em breve.">
-                        
+                            <input type="hidden" name="_autoresponse"
+                                value="Obrigado! Recebemos sua mensagem e entraremos em contato em breve.">
+
                             <div class="form-group">
                                 <input type="text" id="nome" name="Nome" placeholder="Seu Nome" required>
                             </div>
@@ -178,12 +199,13 @@
                                 <input type="text" id="assunto" name="Assunto" placeholder="Assunto" required>
                             </div>
                             <div class="form-group">
-                                <textarea id="mensagem" name="Mensagem" placeholder="Deixe sua mensagem aqui" required></textarea>
+                                <textarea id="mensagem" name="Mensagem" placeholder="Deixe sua mensagem aqui"
+                                    required></textarea>
                             </div>
                             <button type="submit" class="btn01">Enviar mensagem</button>
                         </form>
-                        
-                        
+
+
                     </div>
 
 
@@ -308,7 +330,29 @@
         </article>
     </footer>
 
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1385949369267363');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1385949369267363&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+
 </body>
+
 
 
 <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
