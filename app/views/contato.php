@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="facebook-domain-verification" content="raw2e66mxk9jmiu5w4ixl38ngz68nw"/>
+    <title>Fabi - Home</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- SlickJS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHPCYC835V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-QHPCYC835V');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1385949369267363');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1385949369267363&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+
+<body>
+
+    <!-- BOTÃO PLAY MUSICA FABI TEMA -->
+    <audio id="meuAudio">
+        <source src="img/musicaFabiProtecoes.mp3" type="audio/mpeg"> Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <button id="play-button"></button>
+
+
+    <header>
+        <section class="topo">
+            <article class="site">
+                <div class="email-localizacao">
+                    <img src="img/email.png" alt="Email">
+                    <p>fabiprotecoes@hotmail.com</p>
+
+                    <a href="https://maps.app.goo.gl/WmrYq4VvJoHQmjTW9" class="lz" target="_blank"> <img
+                            src="img/localizacao.svg" alt="Localização">
+                        <p>Avenida Marechal Tito, 1.753 - São Miguel Paulista, São Paulo - SP</p>
+                    </a>
+                </div>
+
+
+                <div class="icones">
+
+                    <ul>
+                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                                target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/fabiana.defarias?igsh=MTdvaWd2d2Juazlxdw=="
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/fabiana.farias.1272?mibextid=ZbWKwL" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a></li>
+
+                    </ul>
+
+                </div>
+            </article>
+        </section>
+
+        <div class="menu">
+            <article class="site">
+                <div class="logo">
+                    <h1><a href="index.html"><img src="img/logo1.png" alt="#"></a></h1>
+                </div>
+
+                <nav>
+                    <button class="hambuguer"></button>
+                    <ul>
+                        <button class="fechar"><img src="img/fechar-menu.svg" alt="img"></button>
+
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+
+                    </ul>
+                </nav>
+
+                <div class="nosso-contato">
+                    <div>
+                        <a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                            target="_blank"><i class="fa-solid fa-phone-volume"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                            target="_blank">
+                            <h3>Nosso contato</h3>
+                            <p>11-977034880</p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="nosso-contato">
+                    <div>
+                        <a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                            target="_blank"><img src="img/compra_e_venda_header.svg" alt="veiculos"></a>
+                    </div>
+                    <div>
+                        <a
+                            href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem.">
+                            <h3>Compras e Vendas <br> de Veículos</h3>
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+        </div>
+        </article>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="banner-pagina">
+            <article class="site">
+                <hr>
+                <h2>Contato</h2>
+                <h3> <a href="index.html">Início</a> <strong>/ Contato</strong></h3>
+            </article>
+        </section>
+
+
+        <section class="contato">
+            <article class="site">
+                <!-- certeza -->
+                <div class="entrar-em-contato">
+                    <div class="contato-icones">
+                        <hr>
+                        <h2>Entrar em Contato</h2>
+                        <div>
+                            <img src="img/contato-telefone.svg" alt="img">
+                            <p>11-977034880</p>
+                        </div>
+                        <div>
+                            <img src="img/contato-email.svg" alt="img">
+                            <p> fabiprotecoes@hotmail.com
+                            </p>
+                        </div>
+                        <div>
+                            <img src="img/contato-localizacao.svg" alt="img">
+                            <p>Avenida Marechal Tito, 1.753 - São Miguel</p>
+                        </div>
+                    </div>
+
+                    <div class="formulario">
+                        <form action="https://formsubmit.co/fabiprotecoes@hotmail.com" method="post">
+                            <input type="hidden" name="_subject" value="Nova mensagem enviada pelo formulário">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_autoresponse"
+                                value="Obrigado! Recebemos sua mensagem e entraremos em contato em breve.">
+
+                            <div class="form-group">
+                                <input type="text" id="nome" name="Nome" placeholder="Seu Nome" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="E-mail" placeholder="Seu E-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="assunto" name="Assunto" placeholder="Assunto" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="mensagem" name="Mensagem" placeholder="Deixe sua mensagem aqui"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn01">Enviar mensagem</button>
+                        </form>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </article>
+
+        </section>
+
+        <section class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0431785671544!2d-46.428810299999995!3d-23.4949542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63c2b920d321%3A0xae4a9a2da6a5207c!2sAvenida%20Marechal%20Tito%2C%201.753%20-%20S%C3%A3o%20Miguel%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008022-000!5e0!3m2!1spt-BR!2sbr!4v1732638510144!5m2!1spt-BR!2sbr"
+                width="1920" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <article class="site">
+            <div class="rodape">
+                <div>
+                    <h2>Informações</h2>
+                    <hr>
+
+                    <ul>
+                        <li><i class="fa-solid fa-phone-volume"></i>11-977034880</li>
+                        <li><i class="fa-regular fa-envelope"></i>fabiprotecoes@hotmail.com</li>
+                        <li><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/WmrYq4VvJoHQmjTW9"
+                                class="lz" target="_blank">
+                                Avenida Marechal Tito, 1.753 - São Miguel Paulista, São Paulo - SP</li>
+
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Menu</h2>
+                    <hr>
+
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-arrow-right"></i>Início</a></li>
+                        <li><a href="sobre.html"><i class="fa-solid fa-arrow-right"></i>Sobre</a></li>
+                        <li><a href="servicos.html"><i class="fa-solid fa-arrow-right"></i>Serviços</a></li>
+                        <li><a href="contato.html"><i class="fa-solid fa-arrow-right"></i>Contato</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Serviços</h2>
+                    <hr>
+
+                    <ul>
+                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                                target="_blank"><i class="fa-solid fa-arrow-right"></i>Suporte ao Cliente</a></li>
+                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                                target="_blank"><i class="fa-solid fa-arrow-right"></i>Assistência em casos de roubo</a>
+                        </li>
+                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                                target="_blank"><i class="fa-solid fa-arrow-right"></i>Assistência com guincho</a></li>
+                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                                target="_blank"><i class="fa-solid fa-arrow-right"></i>Suporte em casos de colisão </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- <div class="newsletter">
+
+                    <h2>Newsletter</h2>
+                    <hr>
+                    <p>Receba as ultimas atualizações sobre novos <br>produtos e proximas promoçoes</p>
+
+                    <form>
+                        <input type="email" placeholder="email" required>
+                        <button type="submit">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+
+                </div> -->
+
+            </div>
+
+            <hr>
+
+            <div>
+                <div class="logo-rodape">
+                    <img src="img/logo1.png" alt="logo">
+                </div>
+
+                <p>Copyright 2024 © Todos os Direitos Reservados | <a href="">Igor Bezerra</a> & <a href="">Alex
+                        Sandro</a>
+                </p>
+
+                <div class="icones">
+                    <ul>
+                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
+                                target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/fabiana.defarias?igsh=MTdvaWd2d2Juazlxdw=="
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/fabiana.farias.1272?mibextid=ZbWKwL" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </article>
+    </footer>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1385949369267363');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1385949369267363&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+
+</body>
+
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+
+<!-- FONT AWESOME -->
+<script src="https://kit.fontawesome.com/83239c51ac.js" crossorigin="anonymous"></script>
+
+<!-- ANIMAÇÃO CARROSSEL  -->
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/carrossel.js"></script>
+
+</html>
