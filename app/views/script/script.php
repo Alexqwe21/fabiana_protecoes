@@ -8,5 +8,5 @@
     <script src="https://kit.fontawesome.com/83239c51ac.js" crossorigin="anonymous"></script>
 
     <!-- ANIMAÇÃO CARROSSEL  -->
-    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="/vendors/slick/slick.min.js"></script>
     <script type="text/javascript" src="/assets/js/script.js"></script>

@@ -1,154 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="facebook-domain-verification" content="raw2e66mxk9jmiu5w4ixl38ngz68nw"/>
-    <title>Fabi - Home</title>
 
-    <link rel="stylesheet" href="css/reset.css">
+<?php require('head/head.php');?>
 
-    <!-- SlickJS -->
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
 
-    <link rel="stylesheet" href="css/geral.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sobre.css">
-    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHPCYC835V"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-QHPCYC835V');
-    </script>
-
-    <!-- Meta Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1385949369267363');
-        fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-             src="https://www.facebook.com/tr?id=1385949369267363&ev=PageView&noscript=1" />
-    </noscript>
-    <!-- End Meta Pixel Code -->
-</head>
+<?php require_once('template/header.php')?>
 
 <body>
-    <!-- BOTÃO PLAY MUSICA FABI TEMA -->
-    <audio id="meuAudio">
-        <source src="img/musicaFabiProtecoes.mp3" type="audio/mpeg"> Seu navegador não suporta o elemento de áudio.
-    </audio>
-    <button id="play-button"></button>
 
+<?php require_once('musica.php')?>
 
-    <header>
-        <section class="topo">
-            <article class="site">
-                <div class="email-localizacao">
-                    <img src="img/email.png" alt="Email">
-                    <p>fabiprotecoes@hotmail.com</p>
-
-                    <a href="https://maps.app.goo.gl/WmrYq4VvJoHQmjTW9" class="lz" target="_blank"> <img
-                            src="img/localizacao.svg" alt="Localização">
-                        <p>Avenida Marechal Tito, 1.753 - São Miguel Paulista, São Paulo - SP</p>
-                    </a>
-                </div>
-
-
-                <div class="icones">
-
-                    <ul>
-                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                                target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-                        <li><a href="https://www.instagram.com/fabiana.defarias?igsh=MTdvaWd2d2Juazlxdw=="
-                                target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="https://www.facebook.com/fabiana.farias.1272?mibextid=ZbWKwL" target="_blank"><i
-                                    class="fa-brands fa-facebook-f"></i></a></li>
-
-                    </ul>
-
-                </div>
-            </article>
-        </section>
-
-        <div class="menu">
-            <article class="site">
-                <div class="logo">
-                    <h1><a href="index.html"><img src="img/logo1.png" alt="#"></a></h1>
-                </div>
-
-                <nav>
-                    <button class="hambuguer"></button>
-                    <ul>
-                        <button class="fechar"><img src="img/fechar-menu.svg" alt="img"></button>
-
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="servicos.html">Serviços</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-
-                    </ul>
-                </nav>
-
-                <div class="nosso-contato">
-                    <div>
-                        <a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                            target="_blank"><i class="fa-solid fa-phone-volume"></i></a>
-                    </div>
-                    <div>
-                        <a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                            target="_blank">
-                            <h3>Nosso contato</h3>
-                            <p>11-977034880</p>
-                        </a>
-                    </div>
-
-
-                </div>
-
-                <div class="nosso-contato">
-                    <div>
-                        <a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                            target="_blank"><img src="img/compra_e_venda_header.svg" alt="veiculos"></a>
-                    </div>
-                    <div>
-                        <a
-                            href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem.">
-                            <h3>Compras e Vendas <br> de Veículos</h3>
-                        </a>
-
-                    </div>
-
-
-                </div>
-
-
-
-
-        </div>
-        </article>
-        </div>
-
-
-    </header>
-
+  
 
     <main>
         <section class="banner-pagina">
@@ -165,7 +28,7 @@
 
                 <div>
                     <div>
-                        <img src="img/fabiana_sobre.png" alt="img">
+                        <img  src="/assets/img/fabiana_sobre.png" alt="img">
                     </div>
 
                     <div>
@@ -179,30 +42,30 @@
 
                         <div class="qualidades">
                             <div>
-                                <img src="img/estrela.svg" alt="img">
+                                <img  src="/assets/img/estrela.svg" alt="img">
                                 <p>Conhecimento técnico</p>
                             </div>
                             <div>
-                                <img src="img/estrela.svg" alt="img">
+                                <img  src="/assets/img/estrela.svg" alt="img">
                                 <p>Excelente Atendimento ao Cliente</p>
                             </div>
                         </div>
 
                         <div class="qualidades-01">
                             <div class="qualidades-02">
-                                <img src="img/estrela.svg" alt="img">
+                                <img  src="/assets/img/estrela.svg" alt="img">
                                 <p>Honestidade e <br>Transparência</p>
                             </div>
 
                             <div class="qualidades-02">
-                                <img src="img/estrela.svg" alt="img">
+                                <img  src="/assets/img/estrela.svg" alt="img">
                                 <p> esclarecer proteções e regulamentos de associações.</p>
                             </div>
                         </div>
 
                         <div class="video-sobre">
                             <!-- <div class="video">
-                                <img src="img/video-sobre.svg" alt="img">
+                                <img  src="/assets/img/video-sobre.svg" alt="img">
                                 <h5>REPRODUZIR VÍDEO</h5>
                             </div> -->
                             <div class="anos-de-esperiencia">
@@ -237,131 +100,18 @@
 
 
 
+    <?php require_once('template/footer.php'); ?>
 
-    <footer>
-        <article class="site">
-            <div class="rodape">
-                <div>
-                    <h2>Informações</h2>
-                    <hr>
+   
+    <?php  require('script/script.php');?>
 
-                    <ul>
-                        <li><i class="fa-solid fa-phone-volume"></i>11-977034880</li>
-                        <li><i class="fa-regular fa-envelope"></i>fabiprotecoes@hotmail.com</li>
-                        <li><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/WmrYq4VvJoHQmjTW9"
-                                class="lz" target="_blank">
-                                Avenida Marechal Tito, 1.753 - São Miguel Paulista, São Paulo - SP</li>
+    
 
-                    </ul>
-                </div>
-
-                <div>
-                    <h2>Menu</h2>
-                    <hr>
-
-                    <ul>
-                        <li><a href="index.html"><i class="fa-solid fa-arrow-right"></i>Início</a></li>
-                        <li><a href="sobre.html"><i class="fa-solid fa-arrow-right"></i>Sobre</a></li>
-                        <li><a href="servicos.html"><i class="fa-solid fa-arrow-right"></i>Serviços</a></li>
-                        <li><a href="contato.html"><i class="fa-solid fa-arrow-right"></i>Contato</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h2>Serviços</h2>
-                    <hr>
-
-                    <ul>
-                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                                target="_blank"><i class="fa-solid fa-arrow-right"></i>Suporte ao Cliente</a></li>
-                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                                target="_blank"><i class="fa-solid fa-arrow-right"></i>Assistência em casos de roubo</a>
-                        </li>
-                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                                target="_blank"><i class="fa-solid fa-arrow-right"></i>Assistência com guincho</a></li>
-                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                                target="_blank"><i class="fa-solid fa-arrow-right"></i>Suporte em casos de colisão </a>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <!-- <div class="newsletter">
-
-                    <h2>Newsletter</h2>
-                    <hr>
-                    <p>Receba as ultimas atualizações sobre novos <br>produtos e proximas promoçoes</p>
-
-                    <form>
-                        <input type="email" placeholder="email" required>
-                        <button type="submit">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                    </form>
-
-                </div> -->
-
-            </div>
-
-            <hr>
-
-            <div>
-                <div class="logo-rodape">
-                    <img src="img/logo1.png" alt="logo">
-                </div>
-
-                <p>Copyright 2024 © Todos os Direitos Reservados | <a href="">Igor Bezerra</a> & <a href="">Alex
-                        Sandro</a>
-                </p>
-
-                <div class="icones">
-                    <ul>
-                        <li><a href="https://wa.me/5511977034880?text=Ol%C3%A1%2C%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20consultoria%20em%20prote%C3%A7%C3%A3o%20veicular%20que%20voc%C3%AAs%20oferecem."
-                                target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-                        <li><a href="https://www.instagram.com/fabiana.defarias?igsh=MTdvaWd2d2Juazlxdw=="
-                                target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="https://www.facebook.com/fabiana.farias.1272?mibextid=ZbWKwL" target="_blank"><i
-                                    class="fa-brands fa-facebook-f"></i></a></li>
-
-                    </ul>
-                </div>
-            </div>
-
-        </article>
-    </footer>
-
-    <!-- Meta Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1385949369267363');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1385949369267363&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
-
+    
 
 </body>
 
 
-<script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
 
-<!-- FONT AWESOME -->
-<script src="https://kit.fontawesome.com/83239c51ac.js" crossorigin="anonymous"></script>
-
-<!-- ANIMAÇÃO CARROSSEL  -->
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script type="text/javascript" src="js/carrossel.js"></script>
 
 </html>

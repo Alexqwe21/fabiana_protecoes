@@ -20,10 +20,11 @@
                     <hr>
 
                     <ul>
-                        <li><a href="index.html"><i class="fa-solid fa-arrow-right"></i>Início</a></li>
-                        <li><a href="sobre.html"><i class="fa-solid fa-arrow-right"></i>Sobre</a></li>
-                        <li><a href="servicos.html"><i class="fa-solid fa-arrow-right"></i>Serviços</a></li>
-                        <li><a href="contato.html"><i class="fa-solid fa-arrow-right"></i>Contato</a></li>
+                    <li><a href="/home">Início</a></li>
+                        <li><a href="/sobre">Sobre</a></li>
+                        <li><a href="/servicos">Serviços</a></li>
+                        <li><a href="/contato">Contato</a></li>
+
                     </ul>
                 </div>
 
@@ -67,7 +68,7 @@
 
             <div>
                 <div class="logo-rodape">
-                    <img src="img/logo1.png" alt="logo">
+                    <img src="/assets/img/logo1.png" alt="logo">
                 </div>
 
                 <p>Copyright 2024 © Todos os Direitos Reservados | <a href="">Igor Bezerra</a> & <a href="">Alex

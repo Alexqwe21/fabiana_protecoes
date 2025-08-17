@@ -1,6 +1,6 @@
 <?php
 
-class HomeController extends Controller
+class ServicosController extends Controller
 {
 
     public function index()
@@ -12,13 +12,13 @@ class HomeController extends Controller
 
 
 
-        $dados['mensagem'] = 'Ben-vindo';
+        $dados['mensagem'] = 'Ben-vindo ';
         $dados['nome'] = 'Alex';
 
 
 
         //var_dump($dados);
 
-        $this ->carregarViews('home', $dados);
+        $this ->carregarViews('servicos', $dados);
     }
 }

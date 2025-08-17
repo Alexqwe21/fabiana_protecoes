@@ -12,7 +12,7 @@ class HomeController extends Controller
 
 
 
-        $dados['mensagem'] = 'Ben-vindo';
+        $dados['mensagem'] = 'Ben-vindo a KiOficina';
         $dados['nome'] = 'Alex';
 
 
