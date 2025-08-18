@@ -3,17 +3,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="facebook-domain-verification" content="raw2e66mxk9jmiu5w4ixl38ngz68nw"/>
     <title>Proteção Veicular</title>
-
     <link rel="stylesheet" href="/assets/css/reset.css">
-
     <!-- SlickJS -->
     <link rel="stylesheet" type="text/css" href="/vendors/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="/vendors/slick/slick-theme.css"/>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/logo_favicon.png" type="image/x-icon">
    
-    
-
-    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHPCYC835V"></script>
@@ -45,4 +41,5 @@
              src="https://www.facebook.com/tr?id=1385949369267363&ev=PageView&noscript=1" />
     </noscript>
     <!-- End Meta Pixel Code -->
+     
 </head>
