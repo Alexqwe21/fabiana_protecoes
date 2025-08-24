@@ -7,7 +7,7 @@
     <!-- SlickJS -->
     <link rel="stylesheet" type="text/css" href="/vendors/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="/vendors/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=<?= time(); ?>">
     <link rel="shortcut icon" href="/assets/img/logo_favicon.png" type="image/x-icon">
    
 

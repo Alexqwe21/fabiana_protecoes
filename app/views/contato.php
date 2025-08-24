@@ -32,7 +32,7 @@
                         </div>
                         <div>
                             <img src="/assets/img/contato-email.svg" alt="img">
-                            <p> fabiprotecoes@hotmail.com
+                            <p> Fabidaprotecao@fabidaprotecaoveicular.com.br
                             </p>
                         </div>
                         <div>

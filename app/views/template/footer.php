@@ -7,7 +7,7 @@
 
                     <ul>
                         <li><i class="fa-solid fa-phone-volume"></i>11-977034880</li>
-                        <li><i class="fa-regular fa-envelope"></i>fabby28.29@hotmail.com</li>
+                        <li><i class="fa-regular fa-envelope"></i>Fabidaprotecao@fabidaprotecaoveicular.com.br</li>
                         <li><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/WmrYq4VvJoHQmjTW9"
                                 class="lz" target="_blank">
                                 Avenida Marechal Tito, 1.753 - São Miguel Paulista, São Paulo - SP</li>

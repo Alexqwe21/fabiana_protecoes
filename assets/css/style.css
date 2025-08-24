@@ -141,11 +141,11 @@ hr {
 }
 
 
- .introducoes #slick-slide-control03{
+.introducoes #slick-slide-control03 {
     display: none !important;
- }
+}
 
-.carrossel__ .slick-dots{
+.carrossel__ .slick-dots {
     display: none !important;
 }
 
@@ -846,7 +846,8 @@ footer .newsletter button {
     background-color: #F7F7F7;
     padding: 40px;
     border-radius: 10px;
-    width: 50%;
+    width: 40%;
+   
 }
 
 
@@ -1697,7 +1698,7 @@ footer .newsletter button {
 @media (max-width: 768px) {
 
 
-    .separa{
+    .separa {
         display: flex !important;
         justify-content: center;
     }
@@ -2101,11 +2102,12 @@ footer .newsletter button {
 
 @media (max-width: 480px) {
 
-    .pagina-sobre-foto .site div:nth-child(2) h3, .pagina-sobre-foto .site div:nth-child(2) h4{
+    .pagina-sobre-foto .site div:nth-child(2) h3,
+    .pagina-sobre-foto .site div:nth-child(2) h4 {
         margin-left: 10px;
     }
 
-    .pagina-sobre-foto .site div:nth-child(2) h2{
+    .pagina-sobre-foto .site div:nth-child(2) h2 {
         margin-left: 0;
         font-size: 25px;
     }
@@ -2208,8 +2210,8 @@ footer .newsletter button {
         margin: 0 auto;
     }
 
-    .introducoes .carrossel img{
-       
+    .introducoes .carrossel img {
+
         width: 250px;
     }
 
@@ -2287,13 +2289,13 @@ footer .newsletter button {
     .visaoGeral .site>div:nth-child(2)>div div>div {
         flex-direction: column;
         align-items: center;
-      
+
     }
 
 
 
 
-    
+
 
     .visaoGeral .site>div:nth-child(2)>div {
 
@@ -2558,7 +2560,7 @@ footer .newsletter button {
 
 
 
-   
+
 
     .visaoGeral .carrossel .slick-dots {
         display: none;

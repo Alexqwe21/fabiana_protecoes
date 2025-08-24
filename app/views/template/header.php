@@ -3,7 +3,7 @@
             <article class="site">
                 <div class="email-localizacao">
                     <img src="/assets/img/email.png" alt="Email">
-                    <p>fabiprotecoes@hotmail.com</p>
+                    <p>Fabidaprotecao@fabidaprotecaoveicular.com.br</p>
                     <!-- protecoes123 : SENHA -->
                     <a href="https://maps.app.goo.gl/WmrYq4VvJoHQmjTW9" class="lz" target="_blank"> <img
                             src="/assets/img/localizacao.svg" alt="Localização">
